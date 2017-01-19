@@ -1,0 +1,9 @@
+# Unitied Vulcan Federation
+part = {
+    location = 0
+    localization = "START_SCREEN_unitied_vulcan_federation"
+  
+    trigger = {
+        has_country_flag = unitied_vulcan_federation
+    }    
+}

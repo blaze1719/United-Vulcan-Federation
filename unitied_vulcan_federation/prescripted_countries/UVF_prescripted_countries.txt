@@ -1,0 +1,58 @@
+"Unitied Vulcan Federation"
+={
+	key="Unitied Vulcan Federation"
+	name_list="HUM2"
+	ship_prefix="VSS"
+	species_name="Vulcan"
+	species_plural="Vulcan"
+	species_class="HUM"
+	species_adjective="Vulcan"
+	portrait="humanoid_05"
+	name="Unitied Vulcan Federation"
+	species_bio="After an age of violence and war, the once-divided Houses of Vulcan now have done what no other Conclave has ever accomplished in our over 10,000 year history: they have chosen a Leader. This process was far from peaceful and rarely, if ever, civil, however the divided people of Vulcan and their myriad leaders have found a path to peace: by uniting through their common bond of Logic. Administrator Sarek of Vulcan, your people look to you, the newly-appointed head of our Conclave of Houses and Collective Planetary Government, to lead us beyond the stars! Under your short but prosperous rule, our military-industrial complex was converted from a war-driver into a global network of labs and testing centers, and within the first year of your 5-Year-Plans, the people of Vulcan had created a crude and primitive inter-planetary drive, and now, during the 5th and final year of the Plan, we have our first tested and working interstellar drive, now being named by our lead scientists as a 'Warp Drive.' Administrator Sarek, your people look to you to give them strength in the gathering storm of our now reachable galaxy. Who knows what wonders we will find in the void? The stars, and our Destiny, awaits!"
+	adjective="Vulcan"
+	government="despotic_hegemony"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Vulcan Prime"
+	planet_class="pc_savannah"
+	system_name="Vulcan"
+	initializer="dualstar_system_initializer"
+	flags = { unitied_vulcan_federation custom_start_screen }
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"blue"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Sarek of Vulcan Prime"
+		portrait="humanoid_05_male_01"
+		texture=0
+		hair=1
+		clothes=3
+		ruler_title="Administrator"
+		heir_title="Admin-in-Waiting"
+	}
+	spawn_as_fallen=no
+	spawn_enabled=yes
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_intelligent"
+	trait="trait_adaptive"
+	trait="trait_sedentary"
+	trait="trait_repugnant"
+}
